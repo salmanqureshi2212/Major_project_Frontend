@@ -29,7 +29,7 @@ export default function Dashboard() {
             <h1 className="text-3xl font-bold text-foreground">Medical Diagnostic Dashboard</h1>
           </div>
           <p className="text-muted-foreground">
-            AI-powered abnormality detection for brain MRI and heart ultrasound images
+            AI-powered abnormality detection for brain Ultrasound and heart ultrasound images
           </p>
         </div>
       </div>
@@ -38,15 +38,15 @@ export default function Dashboard() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <Tabs defaultValue="brain" className="w-full">
           <TabsList className="grid w-full max-w-md grid-cols-2 mb-8">
-            <TabsTrigger value="brain">Brain MRI</TabsTrigger>
+            <TabsTrigger value="brain">Brain Ultrasound</TabsTrigger>
             <TabsTrigger value="heart">Heart Ultrasound</TabsTrigger>
           </TabsList>
 
           <TabsContent value="brain" className="space-y-6">
             <div className="bg-card rounded-lg p-6 border border-border">
-              <h2 className="text-xl font-semibold text-foreground mb-2">Brain MRI Analysis</h2>
+              <h2 className="text-xl font-semibold text-foreground mb-2">Brain Ultrasound Analysis</h2>
               <p className="text-muted-foreground mb-6">
-                Upload a brain MRI image to detect potential abnormalities using our AI model.
+                Upload a brain Ultrasound image to detect potential abnormalities using our AI model.
                 The analysis will provide a confidence score and heatmap highlighting areas of concern.
               </p>
               <BrainDetection

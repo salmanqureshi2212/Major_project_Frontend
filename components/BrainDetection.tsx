@@ -50,8 +50,8 @@ export function BrainDetection({ onAnalyzeStart, onAnalyzeEnd }: BrainDetectionP
   return (
     <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
       <UploadCard
-        title="Brain MRI Upload"
-        description="Upload a brain MRI image for abnormality detection"
+        title="Brain Ultrasound Upload"
+        description="Upload a brain Ultrasound image for abnormality detection"
         onSubmit={handleSubmit}
         isLoading={loading}
         previewUrl={result?.output_url}
